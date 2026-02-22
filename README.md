@@ -40,6 +40,24 @@ The dataset is provided in `JSON` format to accommodate the hierarchical nature 
 - **Conceptual Grounding**: Figurative patterns cluster heavily around anthropocentric domains, specifically "Transactional Logic" (moral deeds as exchangeable entities) and "Embodied Logic" (spiritual states as physiological conditions).
 - **Pragmatic Strategy**: Complex imagery is frequently deployed not to minimize processing costs, but to intentionally increase processing effort, generating dense sets of weak implicatures that modulate epistemic asymmetry.
 
+## 📊 Interactive Analysis & Visualizations
+
+The statistical analysis, data processing, and visualization generation for this study were developed using Python (Pandas, Seaborn, NetworkX) in a Jupyter/Colab environment. 
+
+You can interactively explore the code, generate the figures, and read the auto-generated academic narratives using the provided Google Colab notebooks below:
+
+| Analysis / Visualization | Description & Utility | Explore in Colab |
+| :--- | :--- | :---: |
+| **Morpho-Syntactic Distribution (Fig 1 & 2)** | Generates Pie and Bar charts to analyze the explicit vs. implicit forms of similes and the linguistic structures of metaphors, highlighting the text's preference for direct evidentiality. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE) |
+| **Grammatical Structure Dynamics (Fig 3)** | Compares Verbal (dynamic/temporal processes) and Nominal (static/timeless truths) structures across figurative expressions using count plots. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE) |
+| **Conceptual Domain Mapping (Fig 4 & 5)** | Produces frequency charts and a cross-tabulation Heatmap detailing how anthropocentric source domains (e.g., Commerce, Body) are mapped onto abstract target domains. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE) |
+| **Form-Function Correlations** | Employs Heatmaps to statistically validate pragmatic routines, demonstrating how specific syntactic structures strictly correlate with particular pragmatic functions (e.g., Clarification, Warning). | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE) |
+| **Functional Typology Engine** | An algorithmic extraction tool that scans the corpus to automatically retrieve and format the best representative textual examples for the qualitative functional typology table. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE) |
+| **Cognitive Inference Case Studies** | Generates structured "Ad Hoc Concept" analysis cards based on Relevance Theory, detailing the processing effort and implicit derivations for selected verses. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE) |
+| **Conceptual Network Logic (Fig 6)** | Visualizes the underlying cognitive topology using directed graphs (NetworkX) and detects primary Image Schemas (Path, Container, Force) driving the pragmatic force. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE) |
+
+> **Note:** To run the Colab notebooks successfully, ensure you mount your Google Drive and verify that the JSON dataset paths match the directories in your Drive environment.
+> 
 ## 🚀 Installation & Usage
 
 1. Clone the repository:
